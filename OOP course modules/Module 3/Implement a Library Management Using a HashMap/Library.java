@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 class Library {
     private Map<String, Book> collection = new HashMap<>();
 
