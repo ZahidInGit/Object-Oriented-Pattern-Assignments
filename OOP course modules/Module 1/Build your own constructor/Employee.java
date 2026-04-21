@@ -12,7 +12,7 @@ public class Employee {
     public void applyPromotion() {
         double raiseAmount = this.salary * 0.15; // 15% raise
         this.salary += raiseAmount;
-        System.out.println("✅ PROMOTED! " + this.name + " gets the promotion. New salary: $" + this.salary + "\n");
+        System.out.println("PROMOTED! " + this.name + " gets the promotion. New salary: $" + this.salary + "\n");
     }
   
     public String getName() {
